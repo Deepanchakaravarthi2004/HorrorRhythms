@@ -1,0 +1,119 @@
+
+*
+{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/bg3.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+} 
+.main
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-size:xx-large;
+    text-shadow: 5px 3px rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.butt
+{
+    height:max-content;
+    padding: 10px;
+    width:max-content;
+    font-size:xx-large;
+    text-shadow: 2px 2px tomato;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    display: grid;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 18%;
+    margin-bottom: 10%;
+    border: 2px solid rgb(255, 255, 255);
+    font-family: 'black ops one';
+    position: relative;
+    margin-top: 40%;
+}
+.butt:hover
+{
+    cursor: pointer;
+    color: black;
+    background-color: aliceblue;
+    transform: rotate(4deg);
+    border: 4px solid rgb(0, 0, 0);
+}
+
+
+.head{
+    
+    font-family:'pacifico';
+    text-align: center;
+    letter-spacing: 5px;
+    
+}
+.bot
+{
+    font-family:'pacifico';
+    text-align: center;
+    letter-spacing: 5px;
+}
+img
+{
+    position: absolute;
+    z-index: -20;
+    height:30%;
+    width:auto;
+    
+}
+
+@media (min-width:430px) and (max-width:600px)
+{
+
+    h1
+    {
+        font-size:large;
+    }
+    img
+    {
+    position: absolute;
+    z-index: -20;
+    height:auto;
+    width:auto;   
+    }
+
+   
+}
+@media (min-width:1600px) and (max-width:2600px) {
+    img
+    {
+        height: fit-content;
+        width: fit-content;
+    }
+    
+}
+@media (min-width:300px) and (max-width:430px)
+{
+    
+    h1
+    {
+        font-size:large;
+    }
+    .butt
+    {
+        position: relative;
+        margin-top: 230px;
+    }
+    
+}
